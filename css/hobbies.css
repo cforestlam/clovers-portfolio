@@ -1,0 +1,80 @@
+body {
+    font-family: 'Newsreader', serif;
+    background-color: #fefcea;
+    color: #864f23;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #818e57;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #6b793d;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ddcbbc;
+    font-weight: bold;
+    border: 2px solid #ddcbbc;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d5debb;
+}
+
+.hobbies {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.hobbies h2 {
+    color: #864f23;
+    margin-bottom: 20px;
+}
+
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.hobby {
+    border: 10px solid #6b793e;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.hobby img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
